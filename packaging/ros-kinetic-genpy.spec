@@ -10,6 +10,7 @@ BuildRequires:  gcc-c++
 BuildRequires:  ros-kinetic-catkin
 BuildRequires:  ros-kinetic-genmsg
 Requires:       ros-kinetic-genmsg
+Requires:       python-PyYAML
 
 %define         ros_distro kinetic
 %define         ros_root /opt/ros
